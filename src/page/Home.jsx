@@ -1,8 +1,11 @@
-function Home(){
-    return (
+import Header from "../components/Header";
+
+function Home() {
+    return ( 
         <>
-            메인 페이지
-        </>
+            <Header />
+            <div>메인페이지내용</div>
+        </> 
     );
 }
 
